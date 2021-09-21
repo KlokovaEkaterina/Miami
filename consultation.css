@@ -1,0 +1,58 @@
+.wrapperConsultation {
+  background-color: #fff;
+}
+
+.wrapperConsultation>.title::after {
+ background-color: #fff;
+}
+
+.consultation__title {
+  font-weight: 400;
+  margin: 0 130px 24px 0;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.consultation {
+  display: flex;
+}
+
+.consultation__description {
+  margin-right: 72px;
+  width: 480px;
+}
+
+.consultation__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  margin-bottom: 8px;
+  border: none;
+  background-color: #eeeeee;
+  text-align: center;
+  padding: 0;
+  width: 379px;
+  height: 50px;
+}
+
+.input::placeholder {
+  color: #393939;
+  text-transform: uppercase;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 36px;
+}
+
+.buttonConsultation {
+  margin: 2px 0 145px;
+}

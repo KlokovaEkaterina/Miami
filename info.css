@@ -1,0 +1,73 @@
+.main {
+  padding: 155px calc(50% - 470px);
+  position: relative;
+}
+
+.info {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 0;
+  width: 940px;
+  height: 360px;
+}
+
+.main__title {
+  align-items: center;
+  margin: 0;
+  text-transform: uppercase;
+  width: 314px;
+  height: 180px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 60px;
+}
+
+.main__best {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 60px;
+}
+
+.main__here {
+  color: #00aaef;
+}
+
+strong {
+  font-weight: 500;
+}
+
+.main__text1 {
+  margin: 0;
+  margin-left: 62px;
+  margin-bottom: 24px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.main__text2 {
+  margin: 0;
+  margin-left: 62px;
+  margin-bottom: 24px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.main__text3 {
+  margin: 0;
+  margin-left: 64px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}

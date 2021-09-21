@@ -1,0 +1,80 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #eeeeee;
+}
+
+.descriptoin {
+  align-self: flex-start;
+  margin: 12px 0 35px;
+}
+
+.list__photo {
+  display: flex;
+  gap: 16px;
+}
+
+.title {
+  position: relative;
+  margin: -25px 0 90px 0;
+  text-transform: uppercase;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+}
+
+.title::after {
+  display: flex;
+  justify-content: center;
+  height: 20px;
+  position: absolute;
+  bottom: -18px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 39px;
+  background-color: #eeeeee;
+  content: "";
+  background-image: url(./img/Combined\ shape\ 638.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 10;
+}
+
+.title::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 189px;
+  height: 2px;
+  bottom: -5px;
+
+  background: #00acdc;
+}
+
+.button {
+  cursor: pointer;
+  display: block;
+  padding: 19px 62px;
+  text-transform: uppercase;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  color: #fff;
+  background-color: #00acdc;
+  border: none;
+  margin: 44px auto 110px;
+}
+
+.button:hover {
+  background-color: #2f80ed;
+  transition: 0.7s;
+}
+
