@@ -2,8 +2,8 @@
   background-color: #fff;
 }
 
-.wrapperConsultation>.title::after {
- background-color: #fff;
+.wrapperConsultation > .title::after {
+  background-color: #fff;
 }
 
 .consultation__title {
@@ -14,11 +14,14 @@
 }
 
 .consultation {
+  width: 100%;
+  max-width: 935px;
   display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .consultation__description {
-  margin-right: 72px;
   width: 480px;
 }
 
@@ -55,4 +58,13 @@
 
 .buttonConsultation {
   margin: 2px 0 145px;
+}
+
+@media (max-width: 900px) {
+  .consultation {
+    justify-content: center;
+  }
+  .consultation__description {
+    width: 379px;
+  }
 }

@@ -1,45 +1,47 @@
 .testimonials {
-    margin-bottom: 69px;
-    gap: 71px;
-    display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 69px;
+  gap: 71px;
+  display: flex;
+  justify-content: center;
 }
 
 .card {
-    position: relative;
-    text-align: center;
-    width: 200px;
+  position: relative;
+  text-align: center;
+  width: 200px;
 }
 
-.card__name{
-    margin: 12px 0 0;
-    font-family: Ubuntu;
-    font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 24px;
+.card__name {
+  margin: 12px 0 0;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .card__job {
-    margin: 0;
-    font-style: italic;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #696973;
+  margin: 0;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #696973;
 }
 
 .card__text {
-    margin-top: 16px;
-    font-weight: 400;
-font-size: 16px;
-line-height: 24px;
+  margin-top: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .card::before {
-    position: absolute;
-    left: -20px;
-    top: 52%;
-    transform: translate(0, -50%);
-    
-    content: url(./img/“\ \(1\).svg);
+  position: absolute;
+  left: -20px;
+  top: 52%;
+  transform: translate(0, -50%);
+
+  content: url(./img/“\\(1\).svg);
 }

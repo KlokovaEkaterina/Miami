@@ -5,18 +5,15 @@
 
 .info {
   display: flex;
-  flex-flow: column wrap;
-  margin: 0;
-  width: 940px;
-  height: 360px;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .main__title {
   align-items: center;
   margin: 0;
   text-transform: uppercase;
-  width: 314px;
-  height: 180px;
+  max-width: 314px;
   font-family: Ubuntu;
   font-style: normal;
   font-weight: 300;
@@ -40,34 +37,34 @@ strong {
   font-weight: 500;
 }
 
-.main__text1 {
-  margin: 0;
-  margin-left: 62px;
-  margin-bottom: 24px;
+.main__text {
+  min-height: 300px;
   font-family: Ubuntu;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+}
+.main__text1 {
+  margin-bottom: 24px;
 }
 
 .main__text2 {
-  margin: 0;
-  margin-left: 62px;
   margin-bottom: 24px;
-  font-family: Ubuntu;
-  font-style: normal;
-  font-weight: 400;
+}
+
+.main__text3 {
+  font-weight: 500;
   font-size: 16px;
   line-height: 24px;
 }
 
-.main__text3 {
-  margin: 0;
-  margin-left: 64px;
-  font-family: Ubuntu;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
+@media (max-width: 900px) {
+  .info {
+    margin: 0 10px;
+  }
+
+  .main__text {
+    margin-left: 0;
+  }
 }
